@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maths table</title>
+</head>
+<div class="container">
+
+    <body>
+        <table>
+            <tr>
+                <th>Sr no.</th>
+                <th>Your Number</th>
+                <th>Selec a Number</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><input type="number" id="num1"></td>
+                <td>
+                    <select id="num2" onchange="sumnum1()">
+                        <option value="15">15</option>
+                        <option value="18">18</option>
+                        <option value="25">25</option>
+                        <option value="36">36</option>
+                        <option value="45">45</option>
+                        <option value="65">65</option>
+                        <option value="Select a number" selected>Select a number</option>
+                    </select>
+                </td>
+                <td><input id="value1"></input></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="number" id="num3"></td>
+                <td>
+                    <select id="num4" onchange="sumnum2()">
+                        <option value="15">15</option>
+                        <option value="18">18</option>
+                        <option value="25">25</option>
+                        <option value="36">36</option>
+                        <option value="45">45</option>
+                        <option value="65">65</option>
+                        <option value="Select a number" selected>Select a number</option>
+                    </select>
+                </td>
+                <td><input id="value2"></input></td>
+            </tr>
+
+        </table>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
